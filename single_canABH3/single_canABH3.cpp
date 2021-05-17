@@ -148,7 +148,7 @@ int main()
 		while (1)
 			{
 			funcList.abh3_can_reqBRD(BRDGRP * 8 + 0,&res);
-			::_tprintf(_T("Abnormal: %08x  Warning: %08x\n")
+			::_tprintf(_T("Error: %08x  Alarm: %08x\n")
 				,res.u.BR0.nErrorBit
 				,res.u.BR0.nWarnBit
 				);
